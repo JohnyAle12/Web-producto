@@ -1,0 +1,12 @@
+
+<%= form_for @noticia do |f| %>
+	<div class="form-group">
+  		<label>Encabezado:</label>
+  		<%= f.text_field :encabezado, class: "form-control" %><br />  
+	</div>
+	<div class="form-group">
+  		<label>Cuerpo:</label>
+  		<%= f.text_area :cuerpo, class: "form-control" %><br />
+	</div>
+  <%= f.submit "Crear", class: "btn btn-success" %>
+<% end %>

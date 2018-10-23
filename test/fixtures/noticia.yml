@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cod_noticia: 1
+  tema: MyString
+  actividad: MyString
+  encabezado: MyString
+  cuerpo: MyString
+  fecha: 2018-10-21
+
+two:
+  cod_noticia: 1
+  tema: MyString
+  actividad: MyString
+  encabezado: MyString
+  cuerpo: MyString
+  fecha: 2018-10-21

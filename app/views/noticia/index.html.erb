@@ -1,0 +1,10 @@
+<h1>Lista de noticias</h1>
+<button class="btn btn-success"><%= link_to "Nueva noticia", new_noticium_path %></button>
+<ul>
+	<% @noticia.each do |noticia| %>
+		<li>
+			<!--<%=tareas.titulo%> -->
+			<%=link_to "#{noticia.encabezado}", noticia %>
+		</li>
+	<% end %>
+</ul>
